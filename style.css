@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */ 
+
+.navbar-brand {
+    color: rgb(255, 77, 160);
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar-brand:hover {
+    transition: .9s;
+    color: orangered;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.nav-link {
+    width: 160px;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    transition: .7s;
+    font-size: 23px;
+    background-color: orangered;
+    color: white;
+    box-shadow: 1px 1px 10px #333;
+}
+
+nav {
+    background-color: aliceblue;
+}
+
+/* Pagina Principal */ 
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.row {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.col h1 {
+    font-size: 68px;
+    text-align: center;
+    font-weight: bold;
+    color: cornflowerblue;
+    margin-left: 90px;
+}
+
+.col p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 90px;
+}
+
+.col {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+/* Especialidades */ 
+
+i {
+    color: white;
+}
+
+#abc {
+    background-color:rgb(86, 173, 255);
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#abcd {
+    background-color: rgb(255, 208, 0);
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#abce {
+    background-color: rgb(255, 123, 233);
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+#abcf {
+    background-color: rgb(94, 25, 255);
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#abc:hover, #abcd:hover, #abce:hover, #abcf:hover{
+    transition: .7s;
+    background-color: #333;
+    background-color: transparent;
+    border: 1px solid black;
+    border-color: black;
+    color: black
+}
